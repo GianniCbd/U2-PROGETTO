@@ -2,7 +2,7 @@ window.addEventListener("scroll", function () {
   let nav = document.querySelector("nav");
   let button = document.querySelector("button");
 
-  if (window.scrollY > 300) {
+  if (window.scrollY > 400) {
     nav.classList.add("nav-scrolled");
     button.classList.add("button-scrolled");
   } else {
